@@ -149,6 +149,7 @@ position: relative;
     #overlay #text{
         flex-direction: column;
         align-items: flex-start;
+        bottom: 15%;
        
     }
     #overlay #text #textright{
