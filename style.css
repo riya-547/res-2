@@ -55,25 +55,24 @@ position: relative;
 #bottom{
     min-height: 40vh;
     width: 100%;
-    background-color: antiquewhite;
+    background-color: rgb(14, 190, 167);
     display: flex;
-    
 }
 #first{
     min-height: inherit;
     width: 20%;
     background-color: white;
+    padding: 10px;
+    
 }
-#firstd{
-    padding: 5vw 5vw;
-}
+
 #firstd h4{
     margin-bottom: 40px;
 }
 #firstd p{
     font-size: 15px; 
-
 }
+
 #second{
     position: relative;
     min-height: inherit;
@@ -100,7 +99,7 @@ position: relative;
    
 }
 #text2{
-    padding: 3vw 3vw;
+    padding:10px;
 }
 #text2 h4{
     margin-bottom: 2vh;
@@ -122,13 +121,13 @@ position: relative;
     width: 30%;
     background-color: rgb(21, 2, 2);
     color: white;
-    padding: 3vw ;
+    padding: 10px ;
 }
 #notf1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4vw;
+    padding: 10px;
     
 
 }
@@ -146,7 +145,7 @@ position: relative;
     font-size: 12px;
 }
 
-@media(max-width:500px){
+@media(max-width:700px){
     #overlay #text{
         flex-direction: column;
         align-items: flex-start;
@@ -167,16 +166,18 @@ position: relative;
     }
     #bottom{
         flex-direction: column  ;
-        min-height: 20vh;
+      min-height: 40vh;
     }
     #first{
         width: 100%;
         font-size: 20px;
+        min-height: 20vh;
 
     }
     #second{
         width: 100%;
         min-height: 40vh;
+       
     }
     #third{
         width: 100%;
@@ -186,6 +187,7 @@ position: relative;
     }
     #fourth{
         width: 100%;
+        min-height: 20vh;
     }
 }
 
